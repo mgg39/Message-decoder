@@ -1,7 +1,9 @@
 from pycipher import Playfair
-# This is a test
+
 #Welcome message
 print("Welcome to my decoder. \n" + "It decodes coded messages in Caesar cipher, Morse code, Public-key cryptography and Playfair cipher. \n" + "If you wish to use Caesar cipher input Caesar as code type, Morse for Morse code, Keys for Public-key cryptography and Playfair for Playfair cipher. \n" + "If you are unsure about what each type of code is/does or are just interested in coded messages input Info as the code type and I will give you a link to a fun page explaining it!")
+
+testvals = [val for val in range(1,10)]
 
 #initial values set ups
 letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
