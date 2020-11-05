@@ -39,6 +39,7 @@ code_type = input("type_of_code \n").title()
 decoded_message = ""
 
 #Info
+elif code_type == "Info":
 print("https://www.enkivillage.org/types-of-codes.html")
 
 #Caesar cipher decoding
