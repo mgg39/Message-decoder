@@ -39,11 +39,11 @@ code_type = input("type_of_code \n").title()
 decoded_message = ""
 
 #Info
-elif code_type == "Info":
+if code_type == "Info":
 print("https://www.enkivillage.org/types-of-codes.html")
 
 #Caesar cipher decoding
-if code_type == "Caesar":
+elif code_type == "Caesar":
   print("Input the offset by which the message in  coded within the alphabet: \n")
   x = int(input("code letter shift"))
   print("Input coded message:")
