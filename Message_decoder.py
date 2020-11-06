@@ -40,7 +40,8 @@ decoded_message = ""
 
 #Info
 if code_type == "Info":
-print("https://www.enkivillage.org/types-of-codes.html")
+ print("https://www.enkivillage.org/types-of-codes.html")
+ decoded_message += "None"
 
 #Caesar cipher decoding
 elif code_type == "Caesar":
